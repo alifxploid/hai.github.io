@@ -1,8 +1,1 @@
-	atOptions = {
-		'key' : '29eece38e5769b66a44412bdc5faa12e',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://heartachegrabbedlaunching.com/29eece38e5769b66a44412bdc5faa12e/invoke.js"></scr' + 'ipt>');
+(function(){injectScript([{"attr":[],"tag":"script","inner":"\n<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '29eece38e5769b66a44412bdc5faa12e',\n\t\t'format' : 'iframe',\n\t\t'height' : 250,\n\t\t'width' : 300,\n\t\t'params' : {}\n\t};\n\tdocument.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://heartachegrabbedlaunching.com/29eece38e5769b66a44412bdc5faa12e/invoke.js\"></scr' + 'ipt>');\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
